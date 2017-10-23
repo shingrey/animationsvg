@@ -190,6 +190,62 @@
         stroke-dashoffset: 1000;
     }
 }
+#cuadrox{
+opacity:1;
+fill:#fff;
+fill-opacity:1;
+fill-rule:nonzero;
+stroke-width:29.70000076;
+stroke-miterlimit:4;
+stroke-dasharray:none;
+animation-name: cuadro;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+#cuadroxx{
+opacity:1;
+fill:#000;
+fill-opacity:1;
+fill-rule:nonzero;
+stroke-width:29.70000076;
+stroke-miterlimit:4;
+stroke-dasharray:none;
+animation-name: cuadro, cursor;
+    animation-timing-function: linear;
+    animation-duration: 10s, 300ms;
+    animation-iteration-count: 1, infinite;
+    animation-fill-mode: forwards,forwards;
+    animation-delay: 4s,0s;
+}
+
+
+@keyframes cuadro {
+    from {
+        x: 0;
+    }
+    to {
+        x: 500;
+    }
+}
+@keyframes cursor {
+    from {
+        fill:#000;
+    }
+    to {
+        fill:#fff;
+    }
+}
+.cursor{
+fill:#000;
+stroke:#000000;
+stroke-width:0.59399998px;
+stroke-linecap:butt;
+stroke-linejoin:miter;
+stroke-opacity:1;
+
+}
   
   </style>
   <g
@@ -249,4 +305,39 @@
        inkscape:connector-curvature="0"
        transform="scale(0.26458333)" />
   </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="text">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1.5118971"
+       y="270"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="1.5118971"
+         y="270"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.93333244px;font-family:Verdana;-inkscape-font-specification:'Verdana Bold';stroke-width:0.26458332;fill:#000">&lt; un programador /&gt;</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layerx"
+     inkscape:label="cuadro">
+    <rect
+       id="cuadrox"
+       width="213.84"
+       height="23.76"
+       x="1.5118971"
+       y="255" />
+       <rect
+       id="cuadroxx"
+       width="2"
+       height="23.76"
+       x="2"
+       y="255" />
+       
+  </g>
+  
 </svg>
