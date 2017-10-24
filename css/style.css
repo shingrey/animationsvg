@@ -20,9 +20,3 @@ body {
     transition-duration: 500ms;
     transition-timing-function: linear;
 }
-
-#layer4 #colorcentro {
-    fill: red;
-    fill-opacity: 1;
-    stroke-width: 2.02030516;
-}

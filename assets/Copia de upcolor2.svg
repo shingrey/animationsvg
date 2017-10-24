@@ -75,8 +75,8 @@
 }
 
 #colorcentro {
-    fill: red;
-    fill-opacity: 0;
+    fill: #fff;
+    fill-opacity: 1;
     stroke-width: 2.02030516;
     animation-name: colors;
     animation-timing-function: linear;
@@ -86,8 +86,8 @@
 }
 
 #colormas {
-    fill: #2a2a7f;
-    fill-opacity: 0;
+    fill: #fff;
+    fill-opacity: 1;
     stroke-width: 2.02030516;
     animation-name: colors;
     animation-timing-function: linear;
@@ -97,8 +97,8 @@
 }
 
 #colormenor {
-    fill: #111133;
-    fill-opacity: 0;
+    fill: #fff;
+    fill-opacity: 1;
     stroke-width: 2.02030516;
     animation-name: colors;
     animation-timing-function: linear;
@@ -150,7 +150,7 @@
     stroke-linejoin: miter;
     stroke-opacity: 1;
     stroke-dasharray: 500;
-    stroke-dashoffset: 500;
+    stroke-dashoffset: 0;
     animation-name: menorque;
     animation-timing-function: linear;
     animation-duration: 2s;
@@ -168,7 +168,7 @@
     stroke-linejoin: miter;
     stroke-opacity: 1;
     stroke-dasharray: 500;
-    stroke-dashoffset: 500;
+    stroke-dashoffset: 0;
     animation-name: mayorque;
     animation-timing-function: linear;
     animation-duration: 2s;
@@ -330,24 +330,5 @@ stroke-opacity:1;
          y="290"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.85745144px;font-family:Verdana;-inkscape-font-specification:'Verdana Bold';fill:#000000;stroke-width:0.18527268">&lt; un programador /&gt;</tspan></text>
   </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layerx"
-     inkscape:label="cuadro"
-     transform="translate(0,-86.999992)">
-    <rect
-       id="cuadrox"
-       width="250"
-       height="25"
-       x="50"
-       y="271.86688"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke-width:20.79722404;stroke-miterlimit:4;stroke-dasharray:none" />
-    <rect
-       id="cuadroxx"
-       width="2"
-       height="25"
-       x="50"
-       y="271.86688"
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:20.79722404;stroke-miterlimit:4;stroke-dasharray:none" />
-  </g>
+  
 </svg>

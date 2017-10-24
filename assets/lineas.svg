@@ -10,8 +10,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1122.5197"
-   height="793.70081"
+   width="200"
+   height="200"
    viewBox="0 0 296.99998 210.00001"
    version="1.1"
    id="svg8"
@@ -107,14 +107,14 @@
     animation-delay: 4s;
 }
 
-@keyframes colors {
+/*@keyframes colors {
     from {
         fill-opacity: 0;
     }
     to {
         fill-opacity: 1;
     }
-}
+}*/
 
 .palo {
     fill: none;
@@ -226,7 +226,7 @@ animation-name: cuadro, cursor;
 }
 
 
-@keyframes cuadro {
+/*@keyframes cuadro {
     from {
         x: 50;
     }
@@ -243,7 +243,7 @@ animation-name: cuadro, cursor;
         fill-opacity:1;
         fill:#fff;
     }
-}
+}*/
 .cursor{
 fill:#000;
 stroke:#000000;
