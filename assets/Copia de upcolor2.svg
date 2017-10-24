@@ -10,8 +10,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="200"
-   height="80"
+   width="1122.5197"
+   height="793.70081"
    viewBox="0 0 296.99998 210.00001"
    version="1.1"
    id="svg8"
@@ -75,8 +75,8 @@
 }
 
 #colorcentro {
-    fill: #f1f1f1;
-    fill-opacity: 0;
+    fill: #fff;
+    fill-opacity: 1;
     stroke-width: 2.02030516;
     animation-name: colors;
     animation-timing-function: linear;
@@ -86,8 +86,8 @@
 }
 
 #colormas {
-    fill: #f1f1f1;
-    fill-opacity: 0;
+    fill: #fff;
+    fill-opacity: 1;
     stroke-width: 2.02030516;
     animation-name: colors;
     animation-timing-function: linear;
@@ -97,8 +97,8 @@
 }
 
 #colormenor {
-    fill: #f1f1f1;
-    fill-opacity: 0;
+    fill: #fff;
+    fill-opacity: 1;
     stroke-width: 2.02030516;
     animation-name: colors;
     animation-timing-function: linear;
@@ -118,7 +118,7 @@
 
 .palo {
     fill: none;
-    stroke: #fff;
+    stroke: #000000;
     stroke-width: 1px;
     stroke-linecap: butt;
     stroke-linejoin: miter;
@@ -133,24 +133,24 @@
     from {
         stroke-dashoffset: 100;
         stroke-dasharray: 100;
-        stroke-width: 0.26458332px;
+        stroke-width: 1px;
     }
     to {
         stroke-dasharray: 0;
         stroke-dashoffset: 100;
-        stroke-width: 0.26458332px;
+        stroke-width: 1px;
     }
 }
 
 .movema2 {
     fill: none;
-    stroke: #fff;
+    stroke: #000000;
     stroke-width: 1px;
     stroke-linecap: butt;
     stroke-linejoin: miter;
     stroke-opacity: 1;
     stroke-dasharray: 500;
-    stroke-dashoffset: 500;
+    stroke-dashoffset: 0;
     animation-name: menorque;
     animation-timing-function: linear;
     animation-duration: 2s;
@@ -162,13 +162,13 @@
 
 .movema {
     fill: none;
-    stroke: #fff;
+    stroke: #000000;
     stroke-width: 1px;
     stroke-linecap: butt;
     stroke-linejoin: miter;
     stroke-opacity: 1;
     stroke-dasharray: 500;
-    stroke-dashoffset: 500;
+    stroke-dashoffset: 0;
     animation-name: mayorque;
     animation-timing-function: linear;
     animation-duration: 2s;
@@ -197,7 +197,7 @@
 }
 #cuadrox{
 opacity:1;
-fill:#111133;";
+fill:#fff;
 fill-opacity:1;
 fill-rule:nonzero;
 stroke-width:29.70000076;
@@ -289,7 +289,7 @@ stroke-opacity:1;
        d="m 146.04742,175.29166 c -7.41091,22.23273 -7.41091,22.23273 -7.41091,22.23273 0,0 0,0 0,0 h 7.41091 l 7.41091,-22.23273 z"
        id="palo"
        inkscape:connector-curvature="0"
-        />
+       />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -311,7 +311,7 @@ stroke-opacity:1;
        d="m 139.04093,196.98716 c 0.0977,-0.26539 1.73247,-5.15669 3.63274,-10.86956 l 3.45504,-10.38703 h 3.33761 c 1.83569,0 3.33762,0.1286 3.33762,0.28578 0,0.15718 -1.57206,4.99978 -3.49346,10.76134 l -3.49347,10.47555 -3.47689,0.10823 c -2.71411,0.0845 -3.43791,0.002 -3.29919,-0.37431 z"
        id="colorcentro"
        inkscape:connector-curvature="0"
-        />
+       />
   </g>
   <g
      inkscape:label="Layer 1"
@@ -320,7 +320,7 @@ stroke-opacity:1;
      transform="translate(0,-86.999992)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.41090727px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.18527268"
+       style="font-style:normal;font-weight:normal;font-size:7.41090727px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18527268"
        x="50.99704"
        y="282.37051"
        id="text12"><tspan
@@ -328,26 +328,7 @@ stroke-opacity:1;
          id="tspan10"
          x="50.99704"
          y="290"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.85745144px;font-family:Verdana;-inkscape-font-specification:'Verdana Bold';fill:#ffffff;stroke-width:0.18527268">&lt; un programador /&gt;</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.85745144px;font-family:Verdana;-inkscape-font-specification:'Verdana Bold';fill:#000000;stroke-width:0.18527268">&lt; un programador /&gt;</tspan></text>
   </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layerx"
-     inkscape:label="cuadro"
-     transform="translate(0,-86.999992)">
-    <rect
-       id="cuadrox"
-       width="250"
-       height="25"
-       x="50"
-       y="271.86688"
-       style="opacity:1;fill:##101134;fill-opacity:1;fill-rule:nonzero;stroke-width:20.79722404;stroke-miterlimit:4;stroke-dasharray:none" />
-    <rect
-       id="cuadroxx"
-       width="2"
-       height="25"
-       x="50"
-       y="271.86688"
-       style="opacity:1;fill:#000;fill-opacity:1;fill-rule:nonzero;stroke-width:20.79722404;stroke-miterlimit:4;stroke-dasharray:none" />
-  </g>
+  
 </svg>
